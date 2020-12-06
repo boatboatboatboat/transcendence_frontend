@@ -1,0 +1,186 @@
+html, body {
+    height: 100%;
+}
+
+/* client.js */
+#main-page {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+/* end client.js */
+
+/* hello_world.js */
+
+#hw-placeholder {
+    border-color: red;
+    border-radius: 2px;
+    border-style: solid;
+    padding: 4px 4px;
+    margin: 4px 4px;
+    background-color: blue;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end hello_world.js */
+
+/* navbar.js */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1px;
+}
+
+#navbar a.navbar-button {
+    padding: 14px 14px;
+    text-align: center;
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
+}
+
+#navbar a.navbar-button-selected {
+    padding: 14px 14px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+#navbar a.navbar-button-selected:hover {
+    padding: 14px 14px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+#navbar a.navbar-button:hover {
+    padding: 14px 14px;
+    text-align: center;
+    font-size: 14px;
+    color: blue;
+    cursor: pointer;
+}
+
+/* end navbar.js */
+
+/* page_user.js */
+
+#page-user {
+}
+
+#page-user div.topbox {
+    display: flex;
+}
+
+#page-user-info-view {
+    display: flex;
+    border-style: solid;
+    border-radius: 1px;
+    margin: 4px 4px 4px 0px;
+    flex-grow: 3;
+}
+
+#page-user-info-view img.avi {
+    width: 128px;
+    height: 128px;
+    margin: 4px 4px;
+}
+
+#page-user-info-block {
+    margin: 4px 4px;
+}
+
+#page-user-info-view a.username {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#page-user-info-view a.guild {
+
+}
+
+#page-user-info-view a.status {
+
+}
+
+#page-user-stats {
+    display: flex;
+    border-style: solid;
+    border-radius: 1px;
+    margin: 4px 0;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+}
+
+#page-user-stats span.header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#page-user-stats span.userinfo {
+}
+
+#page-user-match-history {
+    display: flex;
+    border-style: solid;
+    border-radius: 1px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-user-match-history span.match {
+    margin: 4px;
+}
+
+#page-user-match-history span.header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* end page_user.js */
+
+/* page_guild.js */
+
+#page-guild-view {
+
+}
+
+#page-guild-info-view {
+    display: flex;
+    border-style: solid;
+    border-radius: 1px;
+    margin: 4px 0;
+    flex-grow: 3;
+}
+
+#page-guild-info-view img.avi {
+    width: 192px;
+    height: 192px;
+    margin: 4px 4px;
+}
+
+#page-guild-info-block {
+    margin: 4px;
+}
+
+#page-guild-info-block span.guild_name {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#page-guild-info-block span.guild_tag {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* end page_guild.js */
